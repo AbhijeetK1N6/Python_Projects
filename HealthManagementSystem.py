@@ -30,7 +30,9 @@ def func_log():
             with open("USER_3_Diet.txt", "a") as f:
                 f.write(str([str(getdate())]) + ":" + entry + "\n")
         print("Your Diet Updated Successfully")
-
+#--------------------------
+# Project By @AbhijeetK1N6|
+#--------------------------
 def func_fetch():
     print("What you want to Access??\nPress D for DIET or E for EXERCISE : ")
     ck = input()
